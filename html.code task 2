@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Navbar & Footer Task</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--  Navbar -->
+  <header class="navbar">
+    <div class="logo">MyCompany</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </header>
+
+  <!--  Content Placeholder -->
+  <main>
+    <section style="height: 100vh; padding: 2rem;">
+      <h1>Welcome to the Website</h1>
+      <p>This is a demo page for Task 2.</p>
+    </section>
+  </main>
+
+  <!--  Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <a href="#">Home</a><br/>
+        <a href="#">About</a><br/>
+        <a href="#">Services</a><br/>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p>Email: info@mycompany.com</p>
+        <p>Phone: +91-1234567890</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <p>
+          <a href="#">Facebook</a> |
+          <a href="#">Twitter</a> |
+          <a href="#">LinkedIn</a>
+        </p>
+      </div>
+    </div>
+    <p class="copyright">
+      &copy; <span id="year"></span> MyCompany. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
